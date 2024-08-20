@@ -3,12 +3,12 @@ from PIL import Image
 
 st.header("Harry's Hub", divider="rainbow" )
 st.subheader("All of my current tools.")
+st.markdown("All tools up-to-date")
 
 st.link_button("Percentage Calculator", "https://percentagecalculator.streamlit.app/")
 st.link_button("Binary Convertor", "https://binaryconvertor.streamlit.app")
 
 st.subheader("All of my current games.")
+st.markdown("All games up-to-date.")
 
 st.link_button("Number Guesser", "https://numberguesser.streamlit.app")
-
-st.markdown("This is a test while the website is under development")
